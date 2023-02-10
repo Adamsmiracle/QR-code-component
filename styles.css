@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400;800&family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    background: hsl(212, 45%, 89%);
+    align-items: center;
+    font-size: 15px;
+}
+
+#container{
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+#card{
+    background-color: white;
+    padding: 18px;
+    border-radius: 15px;
+    text-align: center;
+    width: 270px;
+    margin: 0 1em;
+}
+
+#image{
+    width: 100%;
+    border-radius: 10px;
+}
+#header{
+}
+
+.description{
+    padding: 22px 10px;
+}
+
+#text{
+    /* margin-top: 20px; */
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+@media only screen and (min-width: 768px){
+    .col{width: 1440px;}
+    body{
+        /* background-color: rebeccapurple; */
+    }
+    #card{
+        /* width: 1440px; */
+    }
+}
